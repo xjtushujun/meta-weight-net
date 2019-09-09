@@ -29,8 +29,14 @@ The requiring environment is as bellow:
 - PyTorch 0.4.0 
 - Torchvision 0.2.0
 
+
+## Running Meta-Weight-Net on benchmark datasets (CIFAR-10 and CIFAR-100) with different noise setting.
+Here is an example:
 ```bash
 python train_WRN-28-10_Meta_PGC.py --dataset cifar10 --corruption_type unif --corruption_prob 0.6
 ```
 
 The default network structure is WRN-28-10, if you want to train with ResNet32 model, please reset the learning rate delay policy.
+
+
+Contact: Jun Shu (xjtushujun@gmail.com); Deyu Meng(dymeng@mail.xjtu.edu.cn).
