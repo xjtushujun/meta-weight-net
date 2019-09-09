@@ -1,8 +1,8 @@
-# meta-weight-net
+# Meta-Weight-Net
 NeurIPS'19: Meta-Weight-Net: Learning an Explicit Mapping For Sample Weighting (Official Pytorch implementation).
 
 
-==========================================================================================================
+================================================================================================================================================================
 
 
 This is the code for the paper:
@@ -30,7 +30,7 @@ The requiring environment is as bellow:
 - Torchvision 0.2.0
 
 
-## Running Meta-Weight-Net on benchmark datasets (CIFAR-10 and CIFAR-100) with different noise setting.
+## Running Meta-Weight-Net on benchmark datasets (CIFAR-10 and CIFAR-100).
 Here is an example:
 ```bash
 python train_WRN-28-10_Meta_PGC.py --dataset cifar10 --corruption_type unif --corruption_prob 0.6
@@ -40,7 +40,7 @@ The default network structure is WRN-28-10, if you want to train with ResNet32 m
 
 
 
-##Acknowledgements
+## Acknowledgements
 We thank the Pytorch implementation on glc(https://github.com/mmazeika/glc) and learning-to-reweight-examples(https://github.com/danieltan07/learning-to-reweight-examples).
 
 
