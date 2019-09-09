@@ -22,7 +22,7 @@ If you find this code useful in your research then please cite
 
 
 ## Setups
-All code was developed and tested on a single machine equiped with a NVIDIA K80 GPU. The environment is as bellow:  
+The requiring environment is as bellow:  
 
 - Linux 
 - Python 3
