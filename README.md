@@ -1,5 +1,5 @@
 # meta-weight-net
-NeurIPS'19: Meta-Weight-Net: Learning an Explicit Mapping For Sample Weighting (Pytorch implementation).
+NeurIPS'19: Meta-Weight-Net: Learning an Explicit Mapping For Sample Weighting (Official Pytorch implementation).
 
 
 ==========================================================================================================
@@ -25,7 +25,7 @@ If you find this code useful in your research then please cite
 The requiring environment is as bellow:  
 
 - Linux 
-- Python 3
+- Python 3+
 - PyTorch 0.4.0 
 - Torchvision 0.2.0
 
@@ -39,4 +39,13 @@ python train_WRN-28-10_Meta_PGC.py --dataset cifar10 --corruption_type unif --co
 The default network structure is WRN-28-10, if you want to train with ResNet32 model, please reset the learning rate delay policy.
 
 
+
+##Acknowledgements
+We thank the Pytorch implementation on glc(https://github.com/mmazeika/glc) and learning-to-reweight-examples(https://github.com/danieltan07/learning-to-reweight-examples).
+
+
 Contact: Jun Shu (xjtushujun@gmail.com); Deyu Meng(dymeng@mail.xjtu.edu.cn).
+
+
+
+
