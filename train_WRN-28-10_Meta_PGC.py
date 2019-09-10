@@ -216,7 +216,7 @@ def main():
                 prec_test = accuracy(output_test.data, target_test_var.data, topk=(1,))[0]
 
                 losses_test.update(loss_test.data.item(), input_test_var.size(0))
-                top1_test.update(prec_test.item(), input.size(0))
+                top1_test.update(prec_test.item(), input_test_var.size(0))
 
             print(' * Prec@1 {top1.avg:.3f}'.format(top1=top1_test))
 
