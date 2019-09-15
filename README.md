@@ -1,5 +1,6 @@
 # Meta-Weight-Net
-NeurIPS'19: Meta-Weight-Net: Learning an Explicit Mapping For Sample Weighting (Official Pytorch implementation).
+NeurIPS'19: Meta-Weight-Net: Learning an Explicit Mapping For Sample Weighting (Official Pytorch implementation for noisy labels).
+The implementation of class imbalance is available at https://github.com/xjtushujun/Meta-weight-net_class-imbalance.
 
 
 ================================================================================================================================================================
