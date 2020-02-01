@@ -34,7 +34,7 @@ The requiring environment is as bellow:
 ## Running Meta-Weight-Net on benchmark datasets (CIFAR-10 and CIFAR-100).
 Here is an example:
 ```bash
-python train_WRN-28-10_Meta_PGC.py --dataset cifar10 --corruption_type unif --corruption_prob 0.6
+python train_WRN-28-10_Meta_PGC.py --dataset cifar10 --corruption_type unif(flip2) --corruption_prob 0.6
 ```
 
 The default network structure is WRN-28-10, if you want to train with ResNet32 model, please reset the learning rate delay policy.
