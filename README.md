@@ -39,6 +39,11 @@ python train_WRN-28-10_Meta_PGC.py --dataset cifar10 --corruption_type unif(flip
 
 The default network structure is WRN-28-10, if you want to train with ResNet32 model, please reset the learning rate delay policy.
 
+A stable version is relased.
+```bash
+python MW-Net.py --dataset cifar10 --corruption_type unif(flip2) --corruption_prob 0.6
+```
+
 
 
 ## Acknowledgements
