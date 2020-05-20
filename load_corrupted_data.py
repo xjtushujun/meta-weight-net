@@ -76,7 +76,7 @@ class CIFAR10(data.Dataset):
         self.meta = meta
         self.corruption_prob = corruption_prob
         self.num_meta = num_meta
-
+        np.random.seed(seed)
         if download:
             self.download()
 
@@ -177,7 +177,7 @@ class CIFAR10(data.Dataset):
                 else:
                     assert False, "Invalid corruption type '{}' given. Must be in {'unif', 'flip', 'hierarchical'}".format(corruption_type)
 
-                np.random.seed(seed)
+                
                 if corruption_type == 'clabels':
                     mean = [x / 255 for x in [125.3, 123.0, 113.9]]
                     std = [x / 255 for x in [63.0, 62.1, 66.7]]
