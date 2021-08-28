@@ -43,7 +43,9 @@ A stable version is relased.
 ```bash
 python MW-Net.py --dataset cifar10 --corruption_type unif(flip2) --corruption_prob 0.6
 ```
+## Important Updating Version
 
+The new code on github (https://github.com/ShiYunyi/Meta-Weight-Net_Code-Optimization) has implemented the MW-Net based on the newest pytorch and torchvision version. It rewrites an optimizer to assign non leaf node tensors to model parameters. Thus it does not need to rewrite the nn.Module as this version does. Very thanks for Shi Yunyi (2404208668@qq.com)!
 
 
 ## Acknowledgements
