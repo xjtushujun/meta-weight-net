@@ -136,7 +136,7 @@ class CIFAR10(data.Dataset):
                 self.train_data = self.train_data[idx_to_train]
                 self.train_labels = list(np.array(self.train_labels)[idx_to_train])
                 if corruption_type == 'hierarchical':
-                    self.train_coarse_labels = list(np.array(self.train_coarse_labels)[idx_to_meta])
+                    self.train_coarse_labels = list(np.array(self.train_coarse_labels)[idx_to_train])
 
                 if corruption_type == 'unif':
                     C = uniform_mix_C(self.corruption_prob, num_classes)
